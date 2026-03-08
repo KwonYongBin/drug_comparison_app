@@ -121,6 +121,7 @@ AI는 의료 판단을 제공하지 않으며
 ---
 
 # 프로젝트 구조(예정)
+```
 src
 ├─ components
 │ ├─ search
@@ -131,6 +132,7 @@ src
 ├─ hooks
 ├─ api
 └─ pages
+```
 
 ---
 
