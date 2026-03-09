@@ -1,14 +1,12 @@
-import { useState } from 'react';
 import './styles/global.scss';
+import SearchPage from './pages/SearchPage';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1>시작</h1>
+      <SearchPage />
     </>
   )
 }
 
-export default App
+export default App;
