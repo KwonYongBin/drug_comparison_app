@@ -1,10 +1,10 @@
-import './styles/global.scss';
-import SearchPage from './pages/SearchPage';
+import './styles/style.scss';
+import MainPage from './pages/MainPage';
 
 function App() {
   return (
     <>
-      <SearchPage />
+      <MainPage />
     </>
   )
 }

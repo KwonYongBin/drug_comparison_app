@@ -8,7 +8,7 @@ const SearchBar = ({ keyword, setKeyword, onSearch }) => {
   };
 
   return (
-    <div>
+    <section id="search_bar">
       <form onSubmit={handleSubmit}>
         <input
           type="text"
@@ -16,10 +16,9 @@ const SearchBar = ({ keyword, setKeyword, onSearch }) => {
           value={keyword}
           onChange={(e) => setKeyword(e.target.value)}
         />
-
-        <button onClick={onSearch}>검색</button>
+        <button onClick={onSearch}>Search</button>
       </form>
-    </div>
+    </section>
   )
 }
 

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+// setting
+@import "setting/fonts";
+@import "setting/mixin";
+@import "setting/reset";
+@import "setting/vars";
+
+// section
+@import "section/header";
+@import "section/searchBar";
+@import "section/searchRecults";
+@import "section/comparResult";
